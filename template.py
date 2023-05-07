@@ -41,4 +41,5 @@ class Messages(Subjects):
         + "- The alarm is warning when the" + " " + self.metricname + " " +"is" + " " + ComparisonOperator + " " + threshold + " " + "on" + " " + statistic + "." 
         )
         
-        return footerßß
+        return footer
+    
